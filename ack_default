@@ -1,0 +1,13 @@
+Listen 990
+<VirtualHost *:990>
+    DocumentRoot /media/data/Projects/ack_default/public
+ 
+    SetEnv APPLICATION_ENV "development"
+ 
+    <Directory /media/data/Projects/ack_default/public>
+    	Options Indexes FollowSymLinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
