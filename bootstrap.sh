@@ -2,6 +2,10 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
+mkdir /var/www
+mkdir /projects
+
+
 apt-get update
 
 #configurações do phpmyadmin
@@ -10,8 +14,13 @@ echo 'phpmyadmin phpmyadmin/app-password-confirm password root' | debconf-set-se
 echo 'phpmyadmin phpmyadmin/mysql/admin-pass password root' | debconf-set-selections
 echo 'phpmyadmin phpmyadmin/mysql/app-pass password root' | debconf-set-selections
 
-apt-get install -y -q apache2 php5 php5-cli git mysql-client mysql-server php5-mysql phpmyadmin
+#instala o servidor
+apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql phpmyadmin
 
+#instala softwares adicionais
+apt-get install -y -q git lynx
+
+#seta a senha de root
 mysqladmin -u root password root
 
 #configura o apache2
