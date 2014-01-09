@@ -6,6 +6,14 @@ mkdir /var/www
 mkdir /projects
 
 
+#adiciona os repositórios de parceiros
+#utilizado no: DB2
+echo "
+#repositorio para o db2
+deb http://archive.canonical.com/ubuntu lucid partner 
+deb-src http://archive.canonical.com/ubuntu lucid partner " >> /etc/apt/sources.list
+
+#atualiza as listas de pacotes
 apt-get update
 
 #configurações do phpmyadmin
@@ -15,10 +23,11 @@ echo 'phpmyadmin phpmyadmin/mysql/admin-pass password root' | debconf-set-select
 echo 'phpmyadmin phpmyadmin/mysql/app-pass password root' | debconf-set-selections
 
 #instala o servidor
-apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql phpmyadmin
+apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql phpmyadmin db2exec
 
 #instala softwares adicionais
 apt-get install -y -q git lynx
+
 
 #seta a senha de root
 mysqladmin -u root password root
