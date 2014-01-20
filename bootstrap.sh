@@ -35,6 +35,7 @@ echo '127.0.0.1     ack-default' >> /etc/hosts
 cd /projects/ack_default && php composer.phar self-update && php composer.phar install && php composer.phar update && cd -
 cd /projects/ack_default/public && cp .htaccess.frontend .htaccess
 
+
+#reinicializa os processo
 apache2ctl restart
 service mysql restart
-apt-get install phpmyadmin --reinstall
