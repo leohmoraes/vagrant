@@ -26,23 +26,27 @@ apt-get install -y -q git lynx
 #seta a senha de root
 mysqladmin -u root password root
 
-#enables mod rewrite
-[ ! -e  /etc/apache2/mods-enabled/rewrite.load ] && {
+rm  -rf /etc/apache2/sites-enabled/*
 
-	ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
+
+[ ! -e /etc/apache2/sites-enabled/virtual.conf ] && {
+
+	ln -s /vagrant/vhosts.conf /etc/apache2/sites-enabled/virtual.conf
 }
-
-[ ! -e /etc/apache2/sites-enabled/default ] && {
-
-	ln -s /vagrant/vhosts.conf /etc/apache2/sites-enabled/default
-}
-
+	
 [ -e /etc/hosts.bkp ] && {
 	mv -f /etc/hosts.bkp /etc/hosts
 }
 
 echo `cat /vagrant/hosts` >> /etc/hosts
 cp /etc/hosts /etc/hosts.bkp
+
+
+#enables mod rewrite
+[ ! -e  /etc/apache2/mods-enabled/rewrite.load ] && {
+
+	ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
+}
 
 #reinicializa os processo
 apache2ctl restart
