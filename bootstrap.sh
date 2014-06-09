@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 export DEBIAN_FRONTEND=noninteractive
-mkdir /projects
+
+[ ! -d /projects ] && {
+
+	mkdir /projects
+}
 
 #atualiza as listas de pacotes
 apt-get update
@@ -22,19 +26,23 @@ apt-get install -y -q git lynx
 #seta a senha de root
 mysqladmin -u root password root
 
-#configura o apache2
-rm -rf /etc/apache2/mods-enabled/rewrite.load
-ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
-ln -s /vagrant/sites-enabled-default /etc/apache2/sites-enabled/sites
-rm -rf /var/www
-ln -s /projects /var/www
-echo '127.0.0.1     ack-default' >> /etc/hosts
+#enables mod rewrite
+[ ! -e  /etc/apache2/mods-enabled/rewrite.load ] && {
 
+	ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
+}
 
-#configura o projeto do ack_default
-cd /projects/ack_default && php composer.phar self-update && php composer.phar install && php composer.phar update && cd -
-cd /projects/ack_default/public && cp .htaccess.frontend .htaccess
+[ ! -e /etc/apache2/sites-enabled/default ] && {
 
+	ln -s /vagrant/vhosts.conf /etc/apache2/sites-enabled/default
+}
+
+[ -e /etc/hosts.bkp ] && {
+	mv -f /etc/hosts.bkp /etc/hosts
+}
+
+echo `cat /vagrant/hosts` >> /etc/hosts
+cp /etc/hosts /etc/hosts.bkp
 
 #reinicializa os processo
 apache2ctl restart
