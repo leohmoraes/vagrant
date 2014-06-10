@@ -2,6 +2,8 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
+php_ini_file="/etc/php5/apache2/php.ini"
+
 [ ! -d /projects ] && {
 
 	mkdir /projects
@@ -21,7 +23,7 @@ apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql
 
 apt-get install -y -q phpmyadmin 
 #instala softwares adicionais
-apt-get install -y -q git lynx
+apt-get install -y -q git lynx vim
 
 #seta a senha de root
 mysqladmin -u root password root
@@ -38,7 +40,7 @@ rm  -rf /etc/apache2/sites-enabled/*
 	mv -f /etc/hosts.bkp /etc/hosts
 }
 
-echo `cat /vagrant/hosts` >> /etc/hosts
+cat /vagrant/hosts >> /etc/hosts
 cp /etc/hosts /etc/hosts.bkp
 
 
@@ -47,6 +49,25 @@ cp /etc/hosts /etc/hosts.bkp
 
 	ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
 }
+
+#creates the default website on root 
+[ ! -d /projects/tests ] && {
+
+	mkdir /projects/tests
+}
+
+
+[ -e "$php_ini_file.bkp" ] && {
+	mv -f "$php_ini_file.bkp" $php_ini_file
+}
+
+cat /vagrant/phpini >> $php_ini_file
+cp $php_ini_file "$php_ini_file.bkp"
+
+
+echo "<?php phpinfo(); " > /projects/tests/index.php
+
+
 
 #reinicializa os processo
 apache2ctl restart
