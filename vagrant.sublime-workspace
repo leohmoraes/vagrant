@@ -3,15 +3,62 @@
 	{
 		"selected_items":
 		[
+			[
+				"phpini",
+				"php_ini_file"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": ".bootstrap.sh.swp",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 30720,
+				"buffer_size": 496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Vagrantfile",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "phpini",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jean/Projects/devil-easy-git/aliases.sh",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nNameVirtualHost *:80\n\nListen 1025\n<VirtualHost *:1025> \n    DocumentRoot \"/projects/ikro\" \n    \n    <Directory \"/projects/ikro\"> \n        DirectoryIndex index.php \n        Options Indexes FollowSymLinks \n		AllowOverride All \n        Order allow,deny \n        Allow from all \n    </Directory> 	\n</VirtualHost>\n\n\nListen 2000\n<VirtualHost *:2000> \n    DocumentRoot \"/usr/share/phpmyadmin\" \n    \n    <Directory \"/usr/share/phpmyadmin\"> \n        DirectoryIndex index.php \n        Options Indexes FollowSymLinks \n		AllowOverride All \n        Order allow,deny \n        Allow from all \n    </Directory> 	\n</VirtualHost>\n	\n	\n<VirtualHost *:80> \n    ServerName tests\n    DocumentRoot \"/projects/tests\" \n    ServerAlias localhost\n    \n    <Directory \"/projects/tests\"> \n        DirectoryIndex index.php 	\n        Options Indexes FollowSymLinks \n		AllowOverride All \n        Order allow,deny \n        Allow from all \n    </Directory> \n</VirtualHost>\n\n",
+			"file": "vhosts.conf",
+			"file_size": 941,
+			"file_write_time": 130468461890000000,
+			"settings":
+			{
+				"buffer_size": 940,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,11 +66,27 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 49.0,
+		"height": 27.0,
 		"selected_items":
 		[
 			[
+				":u",
+				"Snippet: use"
+			],
+			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"colorscheme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"install ",
 				"Package Control: Install Package"
 			],
 			[
@@ -57,10 +120,14 @@
 	},
 	"file_history":
 	[
+		"/Users/jean/Projects/vagrant/hosts",
+		"/Users/jean/Projects/vagrant/test.sh",
+		"/Users/jean/Projects/vagrant/vagrant.sublime-project",
+		"/Users/jean/Projects/vagrant/db2.sh"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -74,6 +141,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rm",
+			"8080"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -91,16 +160,143 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".bootstrap.sh.swp",
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Vagrantfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bootstrap.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1053,
+								1053
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 351.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "phpini",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								70
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"rulers":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jean/Projects/devil-easy-git/aliases.sh",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 30720,
+						"buffer_size": 138,
 						"regions":
 						{
 						},
@@ -118,7 +314,7 @@
 								-0.1,
 								0.2
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -126,17 +322,48 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "vhosts.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -168,7 +395,7 @@
 	"project": "vagrant.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

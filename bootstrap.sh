@@ -67,8 +67,9 @@ cp $php_ini_file "$php_ini_file.bkp"
 
 echo "<?php phpinfo(); " > /projects/tests/index.php
 
+update-rc.d apache2 defaults
+update-rc.d mysql defaults
 
 
-#reinicializa os processo
-apache2ctl restart
+sudo apache2ctl restart
 service mysql restart
