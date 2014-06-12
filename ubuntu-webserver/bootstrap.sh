@@ -40,7 +40,6 @@ mysqladmin -u root password root
 	/projects/devil-database-utilities/database-setup-folder -v /projects/databases
 }
 
-
 rm  -rf /etc/apache2/sites-enabled/*
 
 
