@@ -7,10 +7,17 @@ php_ini_file="/etc/php5/apache2/php.ini"
 [ ! -d /projects ] && {
 
 	mkdir /projects
+	chmod 777 -R /projects
+
 }
 
 #atualiza as listas de pacotes
-apt-get update
+apt-get update 
+#for add-apt-repository connand on 12.04
+sudo apt-get -y -q install python-software-properties
+#add lastest php repository
+sudo add-apt-repository -y ppa:ondrej/php5
+apt-get update 
 
 #configurações do phpmyadmin
 echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
@@ -22,11 +29,11 @@ echo 'phpmyadmin phpmyadmin/mysql/app-pass password root' | debconf-set-selectio
 apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql 
 
 apt-get install -y -q phpmyadmin 
-#instala softwares adicionais
-apt-get install -y -q git lynx vim
 
-#seta a senha de root
-mysqladmin -u root password root
+#aditional useful packages
+apt-get install -y -q git lynx vim aptitude
+
+mysqladmin -u root password root	
 
 rm  -rf /etc/apache2/sites-enabled/*
 
@@ -69,6 +76,7 @@ echo "<?php phpinfo(); " > /projects/tests/index.php
 
 update-rc.d apache2 defaults
 update-rc.d mysql defaults
+
 
 
 sudo apache2ctl restart

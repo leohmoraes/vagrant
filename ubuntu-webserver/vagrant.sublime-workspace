@@ -31,7 +31,7 @@
 			"file": "bootstrap.sh",
 			"settings":
 			{
-				"buffer_size": 1654,
+				"buffer_size": 1689,
 				"line_ending": "Unix"
 			}
 		},
@@ -52,13 +52,10 @@
 			}
 		},
 		{
-			"contents": "\nNameVirtualHost *:80\n\nListen 1025\n<VirtualHost *:1025> \n    DocumentRoot \"/projects/ikro\" \n    \n    <Directory \"/projects/ikro\"> \n        DirectoryIndex index.php \n        Options Indexes FollowSymLinks \n		AllowOverride All \n        Order allow,deny \n        Allow from all \n    </Directory> 	\n</VirtualHost>\n\n\nListen 2000\n<VirtualHost *:2000> \n    DocumentRoot \"/usr/share/phpmyadmin\" \n    \n    <Directory \"/usr/share/phpmyadmin\"> \n        DirectoryIndex index.php \n        Options Indexes FollowSymLinks \n		AllowOverride All \n        Order allow,deny \n        Allow from all \n    </Directory> 	\n</VirtualHost>\n	\n	\n<VirtualHost *:80> \n    ServerName tests\n    DocumentRoot \"/projects/tests\" \n    ServerAlias localhost\n    \n    <Directory \"/projects/tests\"> \n        DirectoryIndex index.php 	\n        Options Indexes FollowSymLinks \n		AllowOverride All \n        Order allow,deny \n        Allow from all \n    </Directory> \n</VirtualHost>\n\n",
 			"file": "vhosts.conf",
-			"file_size": 941,
-			"file_write_time": 130468461890000000,
 			"settings":
 			{
-				"buffer_size": 940,
+				"buffer_size": 1240,
 				"line_ending": "Unix"
 			}
 		}
@@ -184,6 +181,8 @@
 						{
 							"rulers":
 							[
+								-0.1,
+								0.2
 							],
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -215,6 +214,8 @@
 						{
 							"rulers":
 							[
+								0.9,
+								1.2
 							],
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
@@ -233,21 +234,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1654,
+						"buffer_size": 1689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1053,
-								1053
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"rulers":
 							[
+								-0.1,
+								0.2
 							],
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
@@ -280,6 +283,8 @@
 							"open_with_edit": true,
 							"rulers":
 							[
+								0.9,
+								1.2
 							],
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -309,10 +314,9 @@
 						],
 						"settings":
 						{
+							"SideBarAutoAddFoldersForOpenedFiles": 1,
 							"rulers":
 							[
-								-0.1,
-								0.2
 							],
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
@@ -329,7 +333,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 940,
+						"buffer_size": 1240,
 						"regions":
 						{
 						},
@@ -344,8 +348,12 @@
 						{
 							"rulers":
 							[
+								-0.1,
+								0.2
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
