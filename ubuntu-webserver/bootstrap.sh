@@ -8,7 +8,6 @@ php_ini_file="/etc/php5/apache2/php.ini"
 
 	mkdir /projects
 	chmod 777 -R /projects
-
 }
 
 #atualiza as listas de pacotes
@@ -31,7 +30,7 @@ apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql
 apt-get install -y -q phpmyadmin 
 
 #aditional useful packages
-apt-get install -y -q git lynx vim aptitude
+apt-get install -y -q git vim aptitude
 
 mysqladmin -u root password root	
 
@@ -39,6 +38,11 @@ mysqladmin -u root password root
 [ -e /projects/devil-database-utilities/database-setup-folder ] && {
 	/projects/devil-database-utilities/database-setup-folder -v /projects/databases
 }
+
+#set cron to export the databases once a day
+echo "00 14	* * * /projects/devil-database-utilities/databases-save -v /projects/databases" > /tmp/cron-save-database
+
+crontab /tmp/cron-save-database
 
 rm  -rf /etc/apache2/sites-enabled/*
 
