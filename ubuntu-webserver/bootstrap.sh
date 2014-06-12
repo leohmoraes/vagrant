@@ -35,6 +35,12 @@ apt-get install -y -q git lynx vim aptitude
 
 mysqladmin -u root password root	
 
+#import databases on /projects/database folder
+[ -e /projects/devil-database-utilities/database-setup-folder ] && {
+	/projects/devil-database-utilities/database-setup-folder -v /projects/databases
+}
+
+
 rm  -rf /etc/apache2/sites-enabled/*
 
 

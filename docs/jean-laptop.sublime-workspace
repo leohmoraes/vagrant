@@ -1,0 +1,265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cata",
+				"catalogoPath"
+			],
+			[
+				"phpini",
+				"php_ini_file"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"settings user",
+				"Preferences: Settings - User"
+			],
+			[
+				"preferences",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				":u",
+				"Snippet: use"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"colorscheme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"settings us",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 429.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"9hWjJoIGbbRB"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/phpcs.sublime-settings",
+		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Object/Date.php",
+		"/Users/jean/Projects/DevilPhpUtilities/src/DevilPhpUtilities/Date.php",
+		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jean/Projects/ikro/includes/View/publico/contato/left-menu.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Gdata/Calendar/ListEntry.php",
+		"/Users/jean/Projects/DevilPhpUtilities/LICENSE.txt",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/detalhes.php",
+		"/Users/jean/Projects/ikro/includes/View/publico/home/index.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Controller.php",
+		"/Users/jean/Projects/ikro/sync_classes/library/System/Plugins/Authenticatable/Authenticator.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/historico.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Date.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Test/DbAdapter.php",
+		"/Users/jean/Projects/ikro/docs/html/downloads.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/usuario/editar.php",
+		"/Users/jean/Projects/ikro/includes/Controller/home_Controller.php",
+		"/Users/jean/Projects/ikro/includes/Controller/usuario_Controller.php",
+		"/Users/jean/Projects/ikro/includes/library/1.8/System/Authentication/Authenticator.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/simpletest/test/authentication_test.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Service/Amazon/Authentication/V1.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/simpletest/authentication.php",
+		"/Users/jean/Projects/ikro/includes/View/emails/ACKnew_user.txt",
+		"/Users/jean/Projects/ikro/layout/anotacoes.txt",
+		"/Users/jean/Projects/ikro/sync.php",
+		"/Users/jean/Projects/ikro/js/ack/script.ack_uploadFiles.js",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Gdata/App/AuthException.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Auth.php",
+		"/Users/jean/Projects/ikro/sync_classes/library/System/Controller.php",
+		"/Users/jean/Projects/ikro/includes/config.php",
+		"/Users/jean/Projects/ikro/docs/html/restrito/pedidos_media.php",
+		"/Users/jean/Projects/ikro/includes/Controller/pedido_Controller.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/novo_p1.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/media.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/layout/left-menu.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/mais_comprados.php",
+		"/Users/jean/Projects/ikro/docs/html/restrito/pedidos_ultimo.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/ultimo.php",
+		"/Users/jean/Projects/ikro/.htaccess",
+		"/Users/jean/Projects/vagrant/hosts",
+		"/Users/jean/Projects/vagrant/test.sh",
+		"/Users/jean/Projects/vagrant/vagrant.sublime-project",
+		"/Users/jean/Projects/vagrant/db2.sh"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CATALOGO",
+			"SA",
+			"_authenticator",
+			"isAu",
+			"auth",
+			"perfil.php",
+			"rm",
+			"8080"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php echo $endereco_site; ?>/usuario/editar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jean-laptop.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"lef",
+				"ikro/includes/View/restrito/layout/left-menu.php"
+			],
+			[
+				"date",
+				"includes/library/0.9/System/Object/Date.php"
+			],
+			[
+				"authenticator",
+				"sync_classes/library/System/Plugins/Authenticatable/Authenticator.php"
+			],
+			[
+				"systemcontroller",
+				"includes/library/0.9/System/Controller.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

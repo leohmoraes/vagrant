@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/jean/Projects/vagrant"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/jean/Projects/devil-database-utilities"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/jean/Projects/devil-easy-git"
+		}
+	]
+}
