@@ -39,8 +39,8 @@ mysqladmin -u root password root
 	/projects/devil-database-utilities/database-setup-folder -v /projects/databases
 }
 
-#set cron to export the databases once a day
-echo "00 14	* * * /projects/devil-database-utilities/databases-save -v /projects/databases" > /tmp/cron-save-database
+#set cron to export the databases hourly
+echo "0 * * * * root /projects/devil-database-utilities/databases-save -v /projects/databases" > /tmp/cron-save-database
 
 crontab /tmp/cron-save-database
 
@@ -90,3 +90,7 @@ update-rc.d mysql defaults
 
 sudo apache2ctl restart
 service mysql restart
+
+
+echo "Network addresses:"
+ip addr
