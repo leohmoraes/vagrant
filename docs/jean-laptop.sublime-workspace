@@ -4,12 +4,516 @@
 		"selected_items":
 		[
 			[
-				"cata",
-				"catalogoPath"
+				"auten",
+				"authenticate"
 			],
 			[
-				"phpini",
-				"php_ini_file"
+				"dis",
+				"displayable_name"
+			],
+			[
+				"curr",
+				"currCategoria"
+			],
+			[
+				"al",
+				"alternadoresResult"
+			],
+			[
+				"dados",
+				"dadosJSON"
+			],
+			[
+				"result",
+				"resultProduto"
+			],
+			[
+				"whe",
+				"whereClausule"
+			],
+			[
+				"resul",
+				"resultFather"
+			],
+			[
+				"FTP",
+				"FTP_EXPIRATION"
+			],
+			[
+				"_vs",
+				"_versionDefault"
+			],
+			[
+				"ve",
+				"versionDefault"
+			],
+			[
+				"_ver",
+				"_versionDefault"
+			],
+			[
+				"co",
+				"columnName"
+			],
+			[
+				"path",
+				"pathFull"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"asc",
+				"idn_to_ascii"
+			],
+			[
+				"re",
+				"resultRegister"
+			],
+			[
+				"com",
+				"comparação"
+			],
+			[
+				"hasC",
+				"hasComparationChar"
+			],
+			[
+				"colum",
+				"columnName"
+			],
+			[
+				"ele",
+				"elementId"
+			],
+			[
+				"PRO",
+				"productId"
+			],
+			[
+				"en",
+				"endereco_site"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"prod",
+				"productId"
+			],
+			[
+				"onde",
+				"ondeComprar"
+			],
+			[
+				"ci",
+				"cities"
+			],
+			[
+				"city",
+				"cityId"
+			],
+			[
+				"arraykey",
+				"array_key_exists"
+			],
+			[
+				"where",
+				"whereBuyResult"
+			],
+			[
+				"utf8_",
+				"utf8_encode"
+			],
+			[
+				"ut",
+				"utf8_encode"
+			],
+			[
+				"elem",
+				"elementId"
+			],
+			[
+				"dado",
+				"dadosFotos"
+			],
+			[
+				"youtu",
+				"youtubeThumb"
+			],
+			[
+				"new",
+				"newElement"
+			],
+			[
+				"obj",
+				"objName"
+			],
+			[
+				"reslt",
+				"resultGrouped"
+			],
+			[
+				"to",
+				"totalPedidos"
+			],
+			[
+				"pedid",
+				"pedidosResult"
+			],
+			[
+				"ARR",
+				"arrMask"
+			],
+			[
+				"date",
+				"dateElement"
+			],
+			[
+				"mask",
+				"maskElementId"
+			],
+			[
+				"mas",
+				"maskElement"
+			],
+			[
+				"se",
+				"separator"
+			],
+			[
+				"authe",
+				"authenticationIsEnabled"
+			],
+			[
+				"row",
+				"rowCounter"
+			],
+			[
+				"ro",
+				"rowCounter"
+			],
+			[
+				"fa",
+				"fatherTable"
+			],
+			[
+				"element",
+				"elementKey"
+			],
+			[
+				"eleme",
+				"element"
+			],
+			[
+				"el",
+				"elementId"
+			],
+			[
+				"produt",
+				"produtosResult"
+			],
+			[
+				"categ",
+				"categoriasArray"
+			],
+			[
+				"res",
+				"resultPais"
+			],
+			[
+				"id",
+				"idProduct"
+			],
+			[
+				"cate",
+				"categoriasResult"
+			],
+			[
+				"cu",
+				"currProduto"
+			],
+			[
+				"linh",
+				"linhaId"
+			],
+			[
+				"modulo",
+				"moduloVerifica"
+			],
+			[
+				"modu",
+				"moduloVerifica"
+			],
+			[
+				"mod",
+				"modelSite"
+			],
+			[
+				"de",
+				"destaqueCol1"
+			],
+			[
+				"pr",
+				"produtos"
+			],
+			[
+				"DA",
+				"dadosJSON"
+			],
+			[
+				"sus",
+				"substitutoResult"
+			],
+			[
+				"orcam",
+				"orcamentoKind"
+			],
+			[
+				"da",
+				"dados_gerais"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"values",
+				"valuesSchema"
+			],
+			[
+				"fili",
+				"filiaisArray"
+			],
+			[
+				"cds",
+				"cdsPermissions"
+			],
+			[
+				"or",
+				"orcamentoId"
+			],
+			[
+				"orcament",
+				"orcamentoId"
+			],
+			[
+				"_log",
+				"_logFlag"
+			],
+			[
+				"elmen",
+				"elementId"
+			],
+			[
+				"userA",
+				"userAckResult"
+			],
+			[
+				"preco",
+				"preco_aproveitamento"
+			],
+			[
+				"tmp",
+				"tmp_orcamento"
+			],
+			[
+				"user",
+				"userData"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"cotr",
+				"controllerName"
+			],
+			[
+				"orcamento",
+				"orcamentoBody"
+			],
+			[
+				"gene",
+				"generatedPassword"
+			],
+			[
+				"Coor",
+				"coordinate2"
+			],
+			[
+				"fi",
+				"finalResult"
+			],
+			[
+				"kilo",
+				"kilometragem_origem_destino"
+			],
+			[
+				"string",
+				"stringPre"
+			],
+			[
+				"dataFim",
+				"dataFim"
+			],
+			[
+				"dataFi",
+				"dataFinal"
+			],
+			[
+				"requ",
+				"request_url"
+			],
+			[
+				"coordi",
+				"coordinate2"
+			],
+			[
+				"esta",
+				"estadoResult"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"des",
+				"destinoAddr"
+			],
+			[
+				"data",
+				"dataIniOrc"
+			],
+			[
+				"setDat",
+				"setDateTime"
+			],
+			[
+				"cont",
+				"contatoResult"
+			],
+			[
+				"contato",
+				"contatosResult"
+			],
+			[
+				"filiais",
+				"filiaisArray"
+			],
+			[
+				"total",
+				"totalItens"
+			],
+			[
+				"cn",
+				"contatosResult"
+			],
+			[
+				"inter",
+				"internalElementkey"
+			],
+			[
+				"es",
+				"estadoResult"
+			],
+			[
+				"pais",
+				"paisResult"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"ros",
+				"rowsEstados"
+			],
+			[
+				"con",
+				"contatosClientes"
+			],
+			[
+				"htmlen",
+				"html_entity_decode"
+			],
+			[
+				"cidade",
+				"cidade_origem"
+			],
+			[
+				"cida",
+				"cidade_origem"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"di",
+				"disableErrors"
+			],
+			[
+				"UTF8",
+				"utf8_encode"
+			],
+			[
+				"coord",
+				"coordOrigem"
+			],
+			[
+				"strre",
+				"str_replace"
+			],
+			[
+				"pass",
+				"passedAddress"
+			],
+			[
+				"resl",
+				"resultAddress"
+			],
+			[
+				"coor",
+				"coordOrigem"
+			],
+			[
+				"userId",
+				"user_id"
+			],
+			[
+				"itens",
+				"itens_lista"
+			],
+			[
+				"dataini",
+				"dataIniOrc"
+			],
+			[
+				"implo",
+				"implodeRecursively"
+			],
+			[
+				"usuario",
+				"usuarios_app"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"status",
+				"statusResult"
+			],
+			[
+				"param",
+				"parameters"
+			],
+			[
+				"conta",
+				"contatosResult"
 			]
 		]
 	},
@@ -19,47 +523,107 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 71.0,
+		"height": 49.0,
 		"selected_items":
 		[
 			[
-				"settings user",
-				"Preferences: Settings - User"
+				"addfo",
+				"Project: Add Folder"
 			],
 			[
-				"preferences",
-				"Preferences: Key Bindings - User"
+				"colro",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"selectcolo",
+				"ColorSchemeSelector: Select Color Scheme"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				":u",
-				"Snippet: use"
+				"colors",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"settings user",
+				"Preferences: Settings - User"
+			],
+			[
+				"intsl",
+				"Package Control: Install Package"
+			],
+			[
+				"select",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"color",
+				"ColorSchemeSelector: Select Color Scheme"
 			],
 			[
 				":w",
 				":w - Save"
 			],
 			[
-				"colorscheme",
+				"colorschem",
 				"ColorSchemeSelector: Select Color Scheme"
 			],
 			[
-				"install ",
+				"selectcolor",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"settings defaut",
+				"Preferences: Settings - Default"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"settingsus",
+				"Preferences: Settings - User"
+			],
+			[
+				":u",
+				"Snippet: use"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"Package Control: ins",
 				"Package Control: Install Package"
 			],
 			[
-				"settings us",
-				"Preferences: Settings - User"
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:in",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 561.0
+		"width": 435.0
 	},
 	"console":
 	{
-		"height": 429.0,
+		"height": 125.0,
 		"history":
 		[
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
@@ -69,68 +633,153 @@
 	"distraction_free":
 	{
 		"menu_visible": true,
-		"show_minimap": false,
+		"show_minimap": true,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": false,
+		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
-		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/phpcs.sublime-settings",
-		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/jean/Projects/ikro/includes/library/0.9/System/Object/Date.php",
-		"/Users/jean/Projects/DevilPhpUtilities/src/DevilPhpUtilities/Date.php",
-		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/jean/Projects/ikro/includes/View/publico/contato/left-menu.php",
-		"/Users/jean/Projects/ikro/includes/library/Zend/Gdata/Calendar/ListEntry.php",
-		"/Users/jean/Projects/DevilPhpUtilities/LICENSE.txt",
-		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/detalhes.php",
-		"/Users/jean/Projects/ikro/includes/View/publico/home/index.php",
-		"/Users/jean/Projects/ikro/includes/library/0.9/System/Controller.php",
-		"/Users/jean/Projects/ikro/sync_classes/library/System/Plugins/Authenticatable/Authenticator.php",
-		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/historico.php",
-		"/Users/jean/Projects/ikro/includes/library/Zend/Date.php",
-		"/Users/jean/Projects/ikro/includes/library/Zend/Test/DbAdapter.php",
-		"/Users/jean/Projects/ikro/docs/html/downloads.php",
-		"/Users/jean/Projects/ikro/includes/View/restrito/usuario/editar.php",
-		"/Users/jean/Projects/ikro/includes/Controller/home_Controller.php",
 		"/Users/jean/Projects/ikro/includes/Controller/usuario_Controller.php",
+		"/Users/jean/Projects/ikro/includes/bootstrap.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/Auth/Wrapper.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/MVC/Model/Usuario.php",
+		"/Users/jean/Projects/ikro/includes/Controller/pedido_Controller.php",
+		"/Users/jean/Projects/ikro/includes/Model/User/Adaptor.php",
+		"/Users/jean/Projects/ikro/includes/Model/Representantes.php",
+		"/Users/jean/Projects/ikro/includes/Model/WhereToBuy.php",
+		"/Users/jean/Projects/ikro/includes/Model/Pedido.php",
+		"/Users/jean/Projects/ikro/plugins/thumb/cache/pThE107.tmp",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/MVC/Model/Cidade.php",
+		"/Users/jean/Projects/ikro/layout/missao_visao_e_valores.php",
+		"/Users/jean/Projects/ikro/includes/main.php",
+		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jean/Projects/ikro/sync_classes/WEB_DISTRIBUIDOR_REPRESENT.php",
+		"/Users/jean/Projects/ikro/sync_classes/WEB_CATALOGO_PRODUTO.php",
+		"/Users/jean/Projects/ikro/includes/Model/Alternador.php",
+		"/Users/jean/Projects/ikro/includes/Model/User/Test.php",
+		"/Users/jean/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jean/Projects/ikro/includes/Controller/Helper/FormatInputs/Budget.php",
+		"/Users/jean/Projects/ikro/includes/Controller/home_Controller.php",
+		"/Users/jean/Projects/ikro/includes/View/layout/header.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/layout/header.php",
+		"/Users/jean/Projects/ikro/includes/Facade.php",
+		"/Users/jean/Projects/ikro/includes/Model/user_Model.php",
+		"/Users/jean/Projects/ikro/includes/Model/WhereToBuyN.php",
+		"/Users/jean/Projects/ikro/includes/Model/UserAdaper.php",
+		"/Users/jean/Projects/ikro/includes/config.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Controller.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Plugin/Authenticatable/Authenticator.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/System/Autoloader.php",
+		"/Users/jean/Projects/ikro/includes/Controller/ack/ACKajax_Controller.php",
 		"/Users/jean/Projects/ikro/includes/library/1.8/System/Authentication/Authenticator.php",
-		"/Users/jean/Projects/ikro/includes/library/1.0/simpletest/test/authentication_test.php",
-		"/Users/jean/Projects/ikro/includes/library/Zend/Service/Amazon/Authentication/V1.php",
 		"/Users/jean/Projects/ikro/includes/library/1.0/simpletest/authentication.php",
-		"/Users/jean/Projects/ikro/includes/View/emails/ACKnew_user.txt",
-		"/Users/jean/Projects/ikro/layout/anotacoes.txt",
-		"/Users/jean/Projects/ikro/sync.php",
-		"/Users/jean/Projects/ikro/js/ack/script.ack_uploadFiles.js",
 		"/Users/jean/Projects/ikro/includes/library/Zend/Gdata/App/AuthException.php",
 		"/Users/jean/Projects/ikro/includes/library/Zend/Auth.php",
 		"/Users/jean/Projects/ikro/sync_classes/library/System/Controller.php",
-		"/Users/jean/Projects/ikro/includes/config.php",
-		"/Users/jean/Projects/ikro/docs/html/restrito/pedidos_media.php",
-		"/Users/jean/Projects/ikro/includes/Controller/pedido_Controller.php",
-		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/novo_p1.php",
-		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/media.php",
-		"/Users/jean/Projects/ikro/includes/View/restrito/layout/left-menu.php",
+		"/Users/jean/Projects/ikro/includes/Model/System.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Locale/Data/sh_YU.xml",
+		"/Users/jean/Projects/ikro/sync.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/MVC/Controller/UserController.php",
+		"/Users/jean/Projects/ikro/includes/View/emails/userChanges.php",
+		"/Users/jean/Projects/snippets/atom/sublime/user.cson",
+		"/Users/jean/Projects/ikro/docs/database/update-server.sql",
+		"/Users/jean/Projects/ikro/sync_classes/library/System/Auth.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Auth.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/Auth/Default.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/Reuse/ACK/System/Auth.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/Auth/Representante.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Oauth/Token/AuthorizedRequest.php",
+		"/Users/jean/Projects/ikro/README.md",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Validate/Db/RecordExists.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/simpletest/docs/en/authentication_documentation.html",
+		"/Users/jean/Projects/ikro/js/ack/script.ack_uploadFiles.js",
+		"/Users/jean/Projects/ikro/sync_classes/library/System/Email.php",
+		"/Users/jean/Projects/ikro/includes/helpers.php",
+		"/Users/jean/Projects/ikro/includes/View/ack/usuarios.php",
+		"/Users/jean/Projects/ikro/ikro/js/restrito/script.ikro.restrito.js",
+		"/Users/jean/Projects/ikro/includes/View/restrito/layout/scripts.php",
+		"/Users/jean/Projects/ikro/includes/View/publico/home/login.php",
+		"/Users/jean/Projects/ikro/includes/View/emails/rec_senha_pt.txt",
+		"/Users/jean/Projects/ikro/ikro/js/restrito/script.ikro.restrito.min.js",
+		"/Users/jean/Projects/ikro/includes/View/publico/ondecomprar/index.php",
+		"/Users/jean/Projects/ikro/includes/Controller/ondecomprar_Controller.php",
+		"/Users/jean/Projects/ikro/includes/View/ack/pedidos.php",
+		"/Users/jean/Projects/ikro/includes/Controller/pedidosRepresentante_Controller.php",
+		"/Users/jean/Projects/ikro/includes/Controller/Helper/Query/WhereToBuy.php",
+		"/Users/jean/Projects/ikro/includes/Model/OndeComprar.php",
+		"/Users/jean/Projects/ikro/includes/Controller/restrito_Controller.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Navigation/Page/Mvc.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Controller/Action/HelperBroker.php",
+		"/Users/jean/Projects/ikro/includes/Controller/ack/ACKcontato_Controller.php",
+		"/Users/jean/Projects/ikro/includes/Controller/ack/ACKcomentarios_Controller.php",
+		"/Users/jean/Projects/ikro/includes/Controller/ack/ACKcurriculos_Controller.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/Reuse/ACK/View/helpers/Show/Meta.php",
+		"/Users/jean/Projects/ikro/includes/View/publico/produtos/detalhes.php",
+		"/Users/jean/Projects/ikro/includes/View/layout/head.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/ACK/Model/Metatag.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Validate/File/MimeType.php",
+		"/Users/jean/Projects/ikro/docs/html/montadoras_equipe.php",
+		"/Users/jean/Projects/ikro/includes/View/publico/produtos/busca.php",
+		"/Users/jean/Projects/ikro/docs/TODO",
+		"/Users/jean/Projects/ikro/includes/View/layout/_defaultIncludes.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Pdf/Cmap/SegmentToDelta.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/DB/TableOld.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/media_mensal.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/usuario/editar.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/Reuse/MVC/Model/Estado.php",
+		"/Users/jean/Projects/ikro/includes/library/1.8/System/Mvc/Controller/Observer/MetatagsManager.php",
+		"/Users/jean/Projects/ikro/includes/library/1.5/System/Var/Type/Money.php",
+		"/Users/jean/Projects/ikro/includes/Model/Produto.php",
 		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/mais_comprados.php",
-		"/Users/jean/Projects/ikro/docs/html/restrito/pedidos_ultimo.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/historico.php",
+		"/Users/jean/Projects/ikro/includes/Controller/produtos_Controller.php",
+		"/Users/jean/Projects/ikro/docs/html/produtos_retificadores.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/representante/editar.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/layout/left-menu.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/detalhes.php",
 		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/ultimo.php",
-		"/Users/jean/Projects/ikro/.htaccess",
-		"/Users/jean/Projects/vagrant/hosts",
-		"/Users/jean/Projects/vagrant/test.sh",
-		"/Users/jean/Projects/vagrant/vagrant.sublime-project",
-		"/Users/jean/Projects/vagrant/db2.sh"
+		"/Users/jean/Projects/ikro/includes/Controller/Helper/Order/Conclude.php",
+		"/Users/jean/Projects/ikro/includes/library/1.5/System/Mail/Mail.php",
+		"/Users/jean/Projects/ikro/includes/View/layout/README.md",
+		"/Users/jean/Projects/ikro/docs/html/restrito/JSON.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Mail.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Locale/Data/numberingSystems.xml",
+		"/Users/jean/Projects/ikro/includes/Controller/Helper/Order/Setup.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/imprimir.php",
+		"/Users/jean/Projects/ikro/includes/View/ack/setor.php",
+		"/Users/jean/Projects/ikro/plugins/tiny_mce/themes/advanced/source_editor.htm",
+		"/Users/jean/Projects/snippets/sublime/s.sublime-snippet",
+		"/Users/jean/Projects/ikro/includes/Controller/contato_Controller.php",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceAccount.php",
+		"/Users/jean/Projects/ikro/includes/Model/Curriculo.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/novo.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/_leftMenu.php",
+		"/Users/jean/Projects/ikro/docs/html/JSON.php",
+		"/Users/jean/Projects/vagrant/bootstrap.sh",
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/novo_p2.php",
+		"/Users/jean/Projects/ikro/includes/Controller/pedidosRepresentante_Controlleratual.php",
+		"/Users/jean/Projects/ikro/includes/library/0.9/System/Object/Money.php",
+		"/Users/jean/Projects/ikro/sync_classes/library/System/Object/Money.php",
+		"/Users/jean/Projects/ikro/includes/Controller/montadoras_Controller.php",
+		"/Users/jean/Projects/ikro/includes/View/restrito/layout/head.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/System/Plugin/Authenticatable/Authenticator.php",
+		"/Users/jean/Projects/ikro/includes/library/1.0/simpletest/test/authentication_test.php",
+		"/Users/jean/Projects/ikro/includes/View/emails/ACKnew_user.txt",
+		"/Users/jean/Projects/ikro/includes/library/Zend/Service/StrikeIron/SalesUseTaxBasic.php",
+		"/Users/jean/Projects/ikro/includes/languages.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 95.0,
 		"where_history":
 		[
+			"/Users/jean/Projects/ikro/docs/html"
 		]
 	},
 	"find_state":
@@ -138,14 +787,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"CATALOGO",
-			"SA",
-			"_authenticator",
-			"isAu",
+			"updateUser",
+			"update",
+			"authenticator",
 			"auth",
-			"perfil.php",
-			"rm",
-			"8080"
+			"enviaEmail",
+			"$options.url",
+			"readData",
+			"data.action",
+			"action",
+			"recover-password",
+			"produtoId",
+			"getCliente",
+			"ondecomprar",
+			"produto",
+			"getCidades",
+			"getCliente",
+			"cidades",
+			"email",
+			"Recuperar",
+			"user",
+			"razao",
+			"div",
+			"perfil",
+			"ion editar",
+			"getLastByPr",
+			");\n",
+			"is_null",
+			"==",
+			"pedido['id",
+			"pedido",
+			"DEFAULT_RECEIVER_MAIL",
+			"SEPARATOR",
+			"999",
+			"autocomplete_ajax",
+			"autocomplete_ajx",
+			"cliente",
+			"$this->ajax",
+			"auth",
+			"detalhes",
+			"<div class=\"photo\">",
+			");\n",
+			"\\n",
+			"case 'produtos",
+			"filtroCategoria",
+			"ISO-8859-1",
+			"run",
+			"nibus",
+			"557",
+			"produtoObj",
+			"params",
+			"json.ph",
+			"anexos",
+			"ANEXO",
+			"videos",
+			"FTP_EXPIRATION",
+			"linha",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!--texto_interface-->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!-- ",
+			"<!-- texto_interface -->",
+			"<!-- ",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"<!-- texto_interface -->",
+			"<!--",
+			"MAIN_DIR",
+			"insertImage",
+			"dg",
+			"DG",
+			"SYNC_ENABLED",
+			";\n",
+			"atribution",
+			"vizu",
+			"curriculo",
+			"cep",
+			"file",
+			"getVersion",
+			"hasCOmparation",
+			"hasComparationChar",
+			"etVersion($version)\n            {",
+			"updateOrCreate",
+			"updateOrCrea",
+			":%s/copy/@copy/gc",
+			"ordemCompra",
+			"observacoes",
+			"dg",
+			"atribution",
+			"dg",
+			"atri",
+			"function at",
+			"function get(",
+			"function get",
+			"FUNCTION GET",
+			"get",
+			"MANTER_SALDO",
+			"exportarnews",
+			"exportarlista",
+			"									'",
+			"_module",
+			"function u",
+			"1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -153,7 +922,61 @@
 		"regex": false,
 		"replace_history":
 		[
-			"<?php echo $endereco_site; ?>/usuario/editar"
+			"user_array",
+			"user-array",
+			"$data",
+			"annex",
+			"video",
+			"",
+			"0",
+			"<?= youtubeThumb($currProduto['videos'][$videosId]['arquivo'],'p',true)  ?> ",
+			"<?= youtubeThumb($currCategoria['videos'][$videosId]['arquivo'],'p',true)  ?>",
+			"http://www.youtube.com/embed/<?= youtubeThumb($currCategoria['videos'][$videosId]['arquivo'],'p',true)  ?>",
+			"http://www.youtube.com/embed/<?= youtubeThumb($currProduto['videos'][0]['arquivo'],'p',true)  ?>",
+			"http://www.youtube.com/embed/<?= youtubeThumb(currNotice['videos'][0]['arquivo'],'p',true)  ?>",
+			"http://www.youtube.com/embed/<?= youtubeThumb($video['arquivo'],'p',true)  ?>",
+			"'arquivo'",
+			"<?= youtubeThumb($video['arquivo']) ?>",
+			"$foto",
+			"$video",
+			"$dados[\"tamanhoCrop\"]=false;",
+			"$produtos",
+			"",
+			"_'.System_Language::current()",
+			"dadosJSON[\"categorias_montadoras\"",
+			"_'.System_Language::current()",
+			"$this->data",
+			"id",
+			"$data",
+			"string",
+			" $_SESSION['auth_ack']",
+			"_fileName",
+			"$coordinate1['lat']",
+			"$coordinate2['lat']",
+			"$this->soapGiulian",
+			"Orçamento",
+			"$dadosOrcamento",
+			"orcamentos_app",
+			"48",
+			"usuarioapp",
+			"orcamento",
+			"orcamentos",
+			"orcamento",
+			"orcamentos",
+			"usuario",
+			"usuarios",
+			"usuario",
+			"usuarios",
+			"47",
+			"usuario",
+			"usuarios",
+			"usuarios_app",
+			"47",
+			"dadosItem",
+			"Servico",
+			"Servicos",
+			"Servico",
+			"servico"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -171,11 +994,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 29.0
 	},
 	"layout":
 	{
@@ -207,7 +1030,7 @@
 	"project": "jean-laptop.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -216,48 +1039,547 @@
 		"selected_items":
 		[
 			[
-				"lef",
-				"ikro/includes/View/restrito/layout/left-menu.php"
+				"pedidocontro",
+				"ikro/includes/Controller/pedido_Controller.php"
 			],
 			[
-				"date",
-				"includes/library/0.9/System/Object/Date.php"
+				"mvcmodelusu",
+				"ikro/includes/library/0.9/Reuse/MVC/Model/Usuario.php"
 			],
 			[
-				"authenticator",
-				"sync_classes/library/System/Plugins/Authenticatable/Authenticator.php"
+				"wrapper",
+				"ikro/includes/library/0.9/Reuse/Auth/Wrapper.php"
 			],
 			[
-				"systemcontroller",
-				"includes/library/0.9/System/Controller.php"
+				"usuariocon",
+				"ikro/includes/Controller/usuario_Controller.php"
+			],
+			[
+				"authvideo",
+				"ikro/includes/library/0.9/Reuse/Auth/Video.php"
+			],
+			[
+				"authenticator.php",
+				"ikro/includes/library/0.9/System/Plugin/Authenticatable/Authenticator.php"
+			],
+			[
+				"systemcontroller.php",
+				"ikro/includes/library/0.9/System/Controller.php"
+			],
+			[
+				"usercontro",
+				"ikro/includes/library/0.9/Reuse/MVC/Controller/UserController.php"
+			],
+			[
+				"0.9systemauth",
+				"ikro/includes/library/0.9/System/Auth.php"
+			],
+			[
+				"systemauth.hp",
+				"ikro/sync_classes/library/System/Auth.php"
+			],
+			[
+				"authdefault.",
+				"ikro/includes/library/0.9/Reuse/Auth/Default.php"
+			],
+			[
+				"systemauth",
+				"ikro/sync_classes/library/System/Auth.php"
+			],
+			[
+				"home",
+				"ikro/includes/Controller/home_Controller.php"
+			],
+			[
+				"usuariocontr",
+				"ikro/includes/Controller/usuario_Controller.php"
+			],
+			[
+				"helpers.php",
+				"ikro/includes/helpers.php"
+			],
+			[
+				"usuari",
+				"ikro/includes/Controller/usuario_Controller.php"
+			],
+			[
+				"pedidocontrl",
+				"ikro/includes/Controller/pedido_Controller.php"
+			],
+			[
+				"mvcmodel",
+				"ikro/includes/library/0.9/Reuse/MVC/Model/Cidade.php"
+			],
+			[
+				"helperwhere",
+				"ikro/includes/Controller/Helper/Query/WhereToBuy.php"
+			],
+			[
+				"ondecomprarcontr",
+				"ikro/includes/Controller/ondecomprar_Controller.php"
+			],
+			[
+				"mvcmodelcid",
+				"ikro/includes/library/0.9/Reuse/MVC/Model/Cidade.php"
+			],
+			[
+				"helperw",
+				"ikro/includes/Controller/Helper/Query/WhereToBuy.php"
+			],
+			[
+				"ondecomprarcon",
+				"ikro/includes/Controller/ondecomprar_Controller.php"
+			],
+			[
+				"ackcontroller",
+				"ikro/includes/Controller/ack/ACKajax_Controller.php"
+			],
+			[
+				"meta.php",
+				"ikro/includes/library/1.0/Reuse/ACK/View/helpers/Show/Meta.php"
+			],
+			[
+				"todo",
+				"ikro/docs/TODO"
+			],
+			[
+				"mvcmodelusuari",
+				"ikro/includes/library/0.9/Reuse/MVC/Model/Usuario.php"
+			],
+			[
+				"pedido.php",
+				"ikro/includes/Model/Pedido.php"
+			],
+			[
+				"produto.ph",
+				"ikro/includes/Model/Produto.php"
+			],
+			[
+				"systemmail",
+				"ikro/includes/library/0.9/System/Mail.php"
+			],
+			[
+				"systemmai",
+				"ikro/includes/library/1.5/System/Mail/Mail.php"
+			],
+			[
+				"setup",
+				"ikro/includes/Controller/Helper/Order/Setup.php"
+			],
+			[
+				"contatocon",
+				"ikro/includes/Controller/contato_Controller.php"
+			],
+			[
+				"conclude",
+				"includes/Controller/Helper/Order/Conclude.php"
+			],
+			[
+				"pedido.pp",
+				"includes/Model/Pedido.php"
+			],
+			[
+				"produtoscontro",
+				"includes/Controller/produtos_Controller.php"
+			],
+			[
+				"money.php",
+				"includes/library/0.9/System/Object/Money.php"
+			],
+			[
+				"homecon",
+				"includes/Controller/home_Controller.php"
+			],
+			[
+				"auth.php",
+				"includes/library/0.9/System/Auth.php"
+			],
+			[
+				"curriculos",
+				"includes/View/ack/curriculos.php"
+			],
+			[
+				"das",
+				"includes/View/ack/dashboard.php"
+			],
+			[
+				"montado",
+				"includes/Controller/montadoras_Controller.php"
+			],
+			[
+				"contatoco",
+				"includes/Controller/contato_Controller.php"
+			],
+			[
+				"view/produto",
+				"includes/View/ack/produto.php"
+			],
+			[
+				"sync.php",
+				"sync.php"
+			],
+			[
+				"scriptfun",
+				"js/ack/script.funcoes.ack.js"
+			],
+			[
+				"script",
+				"js/ack/script.ack.js"
+			],
+			[
+				"upload",
+				"plugins/uploads/uploadify.php"
+			],
+			[
+				"destaques",
+				"includes/View/ack/destaques.php"
+			],
+			[
+				"webcata",
+				"sync_classes/WEB_CATALOGO_PRODUTO.php"
+			],
+			[
+				"config",
+				"includes/config.php"
+			],
+			[
+				"ackup",
+				"includes/Controller/ack/ACKuploads_Controller.php"
+			],
+			[
+				"application.php",
+				"includes/library/0.9/System/Application.php"
+			],
+			[
+				"uplo",
+				"plugins/uploadify/uploadify.php"
+			],
+			[
+				"ackupl",
+				"includes/Controller/ack/ACKuploads_Controller.php"
+			],
+			[
+				"ackaja",
+				"includes/Controller/ack/ACKajax_Controller.php"
+			],
+			[
+				"contatocontro",
+				"includes/Controller/contato_Controller.php"
+			],
+			[
+				"main.php",
+				"includes/main.php"
+			],
+			[
+				"csv.ph",
+				"sync_classes/library/System/CSV.php"
+			],
+			[
+				"sync.",
+				"sync.php"
+			],
+			[
+				"homecontr",
+				"includes/Controller/home_Controller.php"
+			],
+			[
+				"produtocontro",
+				"includes/Controller/produtos_Controller.php"
+			],
+			[
+				"iobase.h",
+				"includes/library/0.9/System/DB/IOBase.php"
+			],
+			[
+				"produto.php",
+				"includes/Model/Produto.php"
+			],
+			[
+				"iobase.",
+				"includes/library/0.9/System/DB/IOBase.php"
+			],
+			[
+				"produto.hp",
+				"includes/Model/Produto.php"
+			],
+			[
+				"system/db/table.php",
+				"includes/library/0.9/System/DB/Table.php"
+			],
+			[
+				"ikro.js",
+				"js/site/script.ikro.js"
+			],
+			[
+				"insti",
+				"includes/Controller/institucional_Controller.php"
+			],
+			[
+				"ins",
+				"includes/Controller/institucional_Controller.php"
+			],
+			[
+				"csv.php",
+				"sync_classes/library/System/CSV.php"
+			],
+			[
+				"main.ph",
+				"ikro/includes/main.php"
+			],
+			[
+				"institu",
+				"ikro/includes/Controller/institucional_Controller.php"
+			],
+			[
+				"system/db/tabl.php",
+				"ikro/includes/library/0.9/System/DB/Table.php"
+			],
+			[
+				"enderecos.php",
+				"ikro/includes/library/0.9/Reuse/ACK/Model/Enderecos.php"
+			],
+			[
+				"contato",
+				"ikro/includes/Controller/contato_Controller.php"
+			],
+			[
+				"system/application.php",
+				"ikro/includes/library/0.9/System/Application.php"
+			],
+			[
+				"curriculo.php",
+				"ikro/includes/View/ack/curriculo.php"
+			],
+			[
+				"curriculos.ph",
+				"ikro/includes/View/ack/curriculos.php"
+			],
+			[
+				"ackcurr",
+				"ikro/includes/Controller/ack/ACKcurriculos_Controller.php"
+			],
+			[
+				"fotos.php",
+				"ikro/includes/library/0.9/Reuse/ACK/Model/Fotos.php"
+			],
+			[
+				"noticias.php",
+				"ikro/includes/library/0.9/Reuse/ACK/Model/Noticias.php"
+			],
+			[
+				"noticiascontro",
+				"ikro/includes/Controller/noticias_Controller.php"
+			],
+			[
+				"ackpedido",
+				"ikro/includes/Controller/ack/ACKpedidos_Controller.php"
+			],
+			[
+				"bootstrap.php",
+				"ikro/includes/bootstrap.php"
+			],
+			[
+				"homecontro",
+				"ikro/includes/Controller/home_Controller.php"
+			],
+			[
+				"frontco",
+				"ikro/includes/library/1.0/System/FrontController.php"
+			],
+			[
+				"applicatin.php",
+				"ikro/includes/library/1.0/System/Application.php"
+			],
+			[
+				"instic",
+				"ikro/includes/Controller/institucional_Controller.php"
+			],
+			[
+				"fronto",
+				"ikro/sync_classes/library/System/FrontController.php"
+			],
+			[
+				"table.php",
+				"ikro/includes/library/1.0/System/DB/Table.php"
+			],
+			[
+				"1.0/db/table.php",
+				"ikro/includes/library/1.0/System/DB/Table.php"
+			],
+			[
+				"contatocontroller",
+				"ikro/includes/Controller/contato_Controller.php"
+			],
+			[
+				"utils.php",
+				"ikro/includes/library/System/utils.php"
+			],
+			[
+				"webca",
+				"ikro/sync_classes/WEB_CATALOGO_PRODUTO.php"
+			],
+			[
+				"tablenew",
+				"ikro/sync_classes/library/System/DB/TableNew.php"
+			],
+			[
+				"dbtablene",
+				"ikro/sync_classes/library/System/DB/TableNew.php"
+			],
+			[
+				"1.0/autoloader",
+				"ikro/includes/library/1.0/System/Autoloader.php"
+			],
+			[
+				"bootstra.php",
+				"ikro/includes/bootstrap.php"
+			],
+			[
+				"boo",
+				"ikro/includes/bootstrap.php"
+			],
+			[
+				"systemregistry.hp",
+				"ikro/includes/library/1.0/System/Registry.php"
+			],
+			[
+				"system/registry",
+				"ikro/includes/library/1.0/System/Registry.php"
+			],
+			[
+				"config.php",
+				"ikro/includes/library/1.0/System/Config.php"
+			],
+			[
+				"bootstrap.hp",
+				"ikro/includes/bootstrap.php"
+			],
+			[
+				"autoloader.php",
+				"ikro/includes/library/1.0/System/Autoloader.php"
+			],
+			[
+				"script.ikro.js",
+				"ikro/js/site/script.ikro.js"
+			],
+			[
+				"scriptack.",
+				"ikro/js/ack/script.ack.js"
+			],
+			[
+				"pedidocontr",
+				"ikro/includes/Controller/pedido_Controller.php"
+			],
+			[
+				"scriptikro.js",
+				"ikro/js/site/script.ikro.js"
+			],
+			[
+				"helpers.ph",
+				"ikro/includes/helpers.php"
+			],
+			[
+				"db/table.php",
+				"ikro/includes/library/System/DB/Table.php"
+			],
+			[
+				"ack.js",
+				"ikro/js/ack/script.ack.js"
+			],
+			[
+				"pedidos.php",
+				"ikro/includes/View/ack/pedidos.php"
+			],
+			[
+				"ackpedido.",
+				"ikro/includes/Controller/ack/ACKpedidos_Controller.php"
+			],
+			[
+				"pedidoco",
+				"ikro/includes/Controller/pedido_controller.php"
+			],
+			[
+				"onde",
+				"ikro/includes/Controller/ondecomprar_Controller.php"
+			],
+			[
+				"mais",
+				"ikro/includes/View/restrito/pedido/mais_comprados.php"
+			],
+			[
+				"ackajax",
+				"ikro/includes/Controller/ack/ACKajax_Controller.php"
+			],
+			[
+				"anexo.",
+				"ikro/includes/library/Reuse/ACK/Model/Anexos.php"
+			],
+			[
+				"curriculo",
+				"ikro/includes/Model/Curriculo.php"
+			],
+			[
+				"maisco",
+				"ikro/includes/View/restrito/pedido/mais_comprados.php"
+			],
+			[
+				"pais.php",
+				"ikro/includes/library/Reuse/MVC/Model/Pais.php"
+			],
+			[
+				"estado.php",
+				"ikro/includes/library/Reuse/MVC/Model/Estado.php"
+			],
+			[
+				"cidade",
+				"ikro/includes/library/Reuse/MVC/Model/Cidade.php"
+			],
+			[
+				"cidade.php",
+				"ikro/includes/library/Reuse/MVC/Model/Cidade.php"
+			],
+			[
+				"estad.php",
+				"ikro/includes/library/Reuse/MVC/Model/Estado.php"
+			],
+			[
+				"ondecompar",
+				"ikro/includes/Model/OndeComprar.php"
+			],
+			[
+				"ondecomprar.php",
+				"ikro/includes/Model/OndeComprar.php"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 375.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 867.0
 	},
 	"settings":
 	{
+		"vintage":
+		{
+		}
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 354.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

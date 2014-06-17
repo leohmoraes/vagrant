@@ -24,8 +24,17 @@ echo 'phpmyadmin phpmyadmin/app-password-confirm password root' | debconf-set-se
 echo 'phpmyadmin phpmyadmin/mysql/admin-pass password root' | debconf-set-selections
 echo 'phpmyadmin phpmyadmin/mysql/app-pass password root' | debconf-set-selections
 
-#instala o servidor
-apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server php5-mysql 
+#intall the webserver core packages
+apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server mongodb php5-mysql php-pear php5-dev
+
+#install dependencies to build with pecl
+apt-get install -y  -q build-essential python-dev  libldap2-dev libsasl2-dev libssl-dev
+
+#install mongo driver for php
+yes |  sudo pecl install mongo
+
+touch /etc/php5/conf.d/mongo.ini
+echo "extension=mongo.so" > /etc/php5/conf.d/mongo.ini
 
 apt-get install -y -q phpmyadmin 
 
