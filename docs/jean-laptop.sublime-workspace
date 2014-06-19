@@ -519,13 +519,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 2677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jean/Projects/vagrant/ubuntu-generic/bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 49.0,
+		"height": 115.0,
 		"selected_items":
 		[
+			[
+				"selectcolor",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
 			[
 				"addfo",
 				"Project: Add Folder"
@@ -568,10 +588,6 @@
 			],
 			[
 				"colorschem",
-				"ColorSchemeSelector: Select Color Scheme"
-			],
-			[
-				"selectcolor",
 				"ColorSchemeSelector: Select Color Scheme"
 			],
 			[
@@ -987,8 +1003,118 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/bootstrap.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1132,
+								1132
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								13.5666666667,
+								13.8666666667
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tabs_extra_last_activated": 1403033554.5,
+							"tabs_extra_last_activated_view_index": 0,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"native",
+									[
+										"_vi_a",
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									],
+									"mode_insert",
+									null
+								],
+								"sequence": "",
+								"xpos": 24
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jean/Projects/vagrant/ubuntu-generic/bootstrap.sh",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tabs_extra_last_activated": 1403031479.42,
+							"tabs_extra_last_activated_view_index": 1,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_visual",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

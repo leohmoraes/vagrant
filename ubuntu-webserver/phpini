@@ -4,3 +4,6 @@ memory_limit = 3200M
 upload_max_filesize = 1000M
 post_max_size = 2000M
 
+
+error_reporting = E_ALL
+display_errors = On 

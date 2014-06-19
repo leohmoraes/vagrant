@@ -33,8 +33,8 @@ apt-get install -y  -q build-essential python-dev  libldap2-dev libsasl2-dev lib
 #install mongo driver for php
 yes |  sudo pecl install mongo
 
-touch /etc/php5/conf.d/mongo.ini
-echo "extension=mongo.so" > /etc/php5/conf.d/mongo.ini
+touch /etc/php5/apache2/conf.d/mongo.ini
+echo "extension=mongo.so" > /etc/php5/apache2/conf.d/mongo.ini
 
 apt-get install -y -q phpmyadmin 
 
@@ -94,6 +94,7 @@ echo "<?php phpinfo(); " > /projects/tests/index.php
 
 update-rc.d apache2 defaults
 update-rc.d mysql defaults
+update-rc.d mongodb defaults
 
 
 
