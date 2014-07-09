@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 export DEBIAN_FRONTEND=noninteractive
+MAIN_USER="vagrant"
+MAIN_USER_HOME="/home/vagrant"
+
+
 
 php_ini_file="/etc/php5/apache2/php.ini"
 
@@ -15,8 +19,6 @@ apt-get update
 #for add-apt-repository connand on 12.04
 sudo apt-get -y -q install python-software-properties
 #add lastest php repository
-sudo add-apt-repository -y ppa:ondrej/php5
-apt-get update 
 
 #configurações do phpmyadmin
 echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
@@ -24,8 +26,10 @@ echo 'phpmyadmin phpmyadmin/app-password-confirm password root' | debconf-set-se
 echo 'phpmyadmin phpmyadmin/mysql/admin-pass password root' | debconf-set-selections
 echo 'phpmyadmin phpmyadmin/mysql/app-pass password root' | debconf-set-selections
 
+#install php packages
+apt-get install -y -q apache2 php5 php5-common php5-mysqlnd php5-xmlrpc php5-curl php5-gd php5-cli  php-pear php5-dev php5-imap php5-mcrypt
 #intall the webserver core packages
-apt-get install -y -q apache2 php5 php5-cli mysql-client mysql-server mongodb php5-mysql php-pear php5-dev
+apt-get install -y -q  mysql-client mysql-server mongodb
 
 #install dependencies to build with pecl
 apt-get install -y  -q build-essential python-dev  libldap2-dev libsasl2-dev libssl-dev
@@ -97,10 +101,27 @@ update-rc.d mysql defaults
 update-rc.d mongodb defaults
 
 
-
 sudo apache2ctl restart
 service mysql restart
 
+
+#here you could put things that will
+#only run once per installation
+[ ! -e /etc/firstRun ] && {
+
+	echo 'export PATH=$PATH:/projects/devil-easy-git' >> /home/vagrant/.bashrc 
+	echo 'export PATH=$PATH:/projects/personalScripts' >> /home/vagrant/.bashrc
+
+	touch  /etc/firstRun
+}
+
+rn -rf /vagrant/ssh/* $MAIN_USER_HOME/.ssh/*
+cp -rf /vagrant/ssh/* $MAIN_USER_HOME/.ssh
+
+chown $MAIN_USER -R $MAIN_USER_HOME/.ssh
+
+su -c "git config --global user.name Jean" -s  /bin/sh vagrant
+su -c "git config --global user.email contato@jeancarlomachado.com.br" -s  /bin/sh vagrant
 
 echo "Network addresses:"
 ip addr

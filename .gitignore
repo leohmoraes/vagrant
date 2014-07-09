@@ -35,3 +35,4 @@ data/cache/*
 *.swp
 logs/*
 includes/config.php
+ubuntu-webserver/ssh/*

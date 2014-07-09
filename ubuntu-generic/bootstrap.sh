@@ -2,12 +2,10 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
-
 [ ! -d /projects ] && {
 
 	mkdir /projects
 	chmod 777 -R /projects
-
 }
 
 #atualiza as listas de pacotes
