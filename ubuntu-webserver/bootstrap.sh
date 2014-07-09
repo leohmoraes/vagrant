@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
+# ========================= bootstrap =========================
+    
 export DEBIAN_FRONTEND=noninteractive
 MAIN_USER="vagrant"
 MAIN_USER_HOME="/home/vagrant"
 
+# ======================== END bootstrap =======================
 
 
 php_ini_file="/etc/php5/apache2/php.ini"
@@ -14,11 +17,8 @@ php_ini_file="/etc/php5/apache2/php.ini"
 	chmod 777 -R /projects
 }
 
-#atualiza as listas de pacotes
 apt-get update 
-#for add-apt-repository connand on 12.04
 sudo apt-get -y -q install python-software-properties
-#add lastest php repository
 
 #configurações do phpmyadmin
 echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
