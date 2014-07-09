@@ -112,6 +112,9 @@ service mysql restart
 	echo 'export PATH=$PATH:/projects/devil-easy-git' >> /home/vagrant/.bashrc 
 	echo 'export PATH=$PATH:/projects/personalScripts' >> /home/vagrant/.bashrc
 
+	echo 'source /projects/devil-easy-git/aliases.sh'  >> /home/vagrant/.bashrc
+
+
 	touch  /etc/firstRun
 }
 
