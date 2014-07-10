@@ -18,7 +18,14 @@ php_ini_file="/etc/php5/apache2/php.ini"
 }
 
 apt-get update 
+
 sudo apt-get -y -q install python-software-properties
+
+sudo add-apt-repository ppa:ondrej/php5
+
+apt-get update 
+
+
 
 #configurações do phpmyadmin
 echo 'phpmyadmin phpmyadmin/dbconfig-install boolean true' | debconf-set-selections
@@ -114,6 +121,7 @@ service mysql restart
 
 	echo 'source /projects/devil-easy-git/aliases.sh'  >> /home/vagrant/.bashrc
 
+	echo 'alias prj="cd /projects"' >> /home/vagrant/.bashrc
 
 	touch  /etc/firstRun
 }
