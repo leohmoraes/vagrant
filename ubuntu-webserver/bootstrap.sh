@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ========================= bootstrap =========================
-    
+
 export DEBIAN_FRONTEND=noninteractive
 MAIN_USER="vagrant"
 MAIN_USER_HOME="/home/vagrant"
@@ -17,13 +17,13 @@ php_ini_file="/etc/php5/apache2/php.ini"
 	chmod 777 -R /projects
 }
 
-apt-get update 
+apt-get update
 
 sudo apt-get -y -q install python-software-properties
 
 sudo add-apt-repository ppa:ondrej/php5
 
-apt-get update 
+apt-get update
 
 
 
@@ -39,7 +39,7 @@ apt-get install -y -q apache2 php5 php5-common php5-mysqlnd php5-xmlrpc php5-cur
 apt-get install -y -q  mysql-client mysql-server mongodb
 
 #install dependencies to build with pecl
-apt-get install -y  -q build-essential python-dev  libldap2-dev libsasl2-dev libssl-dev
+apt-get install -y  -q build-essential python-dev  libldap2-dev libsasl2-dev libssl-dev curl
 
 #install mongo driver for php
 yes |  sudo pecl install mongo
@@ -47,12 +47,16 @@ yes |  sudo pecl install mongo
 touch /etc/php5/apache2/conf.d/mongo.ini
 echo "extension=mongo.so" > /etc/php5/apache2/conf.d/mongo.ini
 
-apt-get install -y -q phpmyadmin 
+apt-get install -y -q phpmyadmin phpunit
 
 #aditional useful packages
 apt-get install -y -q git vim aptitude
 
-mysqladmin -u root password root	
+#install composer
+
+
+
+mysqladmin -u root password root
 
 #import databases on /projects/database folder
 [ -e /projects/devil-database-utilities/database-setup-folder ] && {
@@ -71,7 +75,7 @@ rm  -rf /etc/apache2/sites-enabled/*
 
 	ln -s /vagrant/vhosts.conf /etc/apache2/sites-enabled/virtual.conf
 }
-	
+
 [ -e /etc/hosts.bkp ] && {
 	mv -f /etc/hosts.bkp /etc/hosts
 }
@@ -86,7 +90,7 @@ cp /etc/hosts /etc/hosts.bkp
 	ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load
 }
 
-#creates the default website on root 
+#creates the default website on root
 [ ! -d /projects/tests ] && {
 
 	mkdir /projects/tests
@@ -116,12 +120,22 @@ service mysql restart
 #only run once per installation
 [ ! -e /etc/firstRun ] && {
 
-	echo 'export PATH=$PATH:/projects/devil-easy-git' >> /home/vagrant/.bashrc 
+	curl -sS https://getcomposer.org/installer | php
+	mv composer.phar /usr/local/bin/composer
+
+
+	echo 'export PATH=$PATH:/projects/devil-easy-git' >> /home/vagrant/.bashrc
 	echo 'export PATH=$PATH:/projects/personalScripts' >> /home/vagrant/.bashrc
 
 	echo 'source /projects/devil-easy-git/aliases.sh'  >> /home/vagrant/.bashrc
 
 	echo 'alias prj="cd /projects"' >> /home/vagrant/.bashrc
+	echo 'alias zftool="vendor/zendframework/zftool/zf.php"' >> /home/vagrant/.bashrc
+	echo 'alias phpunit="php vendor/phpunit/phpunit/phpunit.php"' >> /home/vagrant/.bashrc
+	echo 'alias gf="git-facade"' >> /home/vagrant/.bashrc
+
+
+	echo 'short_open_tag=On' >> /etc/php5/apache2/php.ini
 
 	touch  /etc/firstRun
 }
