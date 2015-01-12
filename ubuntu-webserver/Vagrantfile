@@ -4,7 +4,8 @@ ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise32"
   config.vm.provision :shell, path: "bootstrap.sh"
-  config.vm.network "public_network", type: "dhcp", auto_correct: true
-  config.vm.synced_folder "../../", "/projects"
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 1044, host:1044 
+  config.vm.synced_folder "../../", "/projects", :owner=> 'www-data', :group=>'www-data'
   config.ssh.forward_agent = true
 end

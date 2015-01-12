@@ -520,10 +520,26 @@
 	"buffers":
 	[
 		{
+			"file": "/Users/jean/Projects/vagrant/backtrack/bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/bootstrap.sh",
+			"settings":
+			{
+				"buffer_size": 3978,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/vhosts.conf",
 			"settings":
 			{
-				"buffer_size": 6077,
+				"buffer_size": 5771,
 				"line_ending": "Unix"
 			}
 		}
@@ -658,14 +674,19 @@
 	"expanded_folders":
 	[
 		"/Users/jean/Projects/vagrant",
+		"/Users/jean/Projects/vagrant/backtrack",
 		"/Users/jean/Projects/vagrant/centos-webserver",
 		"/Users/jean/Projects/vagrant/docs",
-		"/Users/jean/Projects/vagrant/ubuntu-webserver"
+		"/Users/jean/Projects/vagrant/ubuntu-webserver",
+		"/Users/jean/Projects/vagrant/ubuntu-webserver/ssh"
 	],
 	"file_history":
 	[
-		"/Users/jean/Projects/vagrant/ubuntu-webserver/Vagrantfile",
+		"/Users/jean/Projects/vagrant/backtrack/Vagrantfile",
+		"/Users/jean/Projects/vagrant/.git/refs/heads/master",
+		"/Users/jean/Projects/vagrant/.git/COMMIT_EDITMSG",
 		"/Users/jean/Projects/vagrant/ubuntu-webserver/vhosts.conf",
+		"/Users/jean/Projects/vagrant/ubuntu-webserver/Vagrantfile",
 		"/Users/jean/Projects/html/barcode/barcode.inc.php",
 		"/Users/jean/Projects/vagrant/ubuntu-webserver/bootstrap.sh",
 		"/Users/jean/Projects/vagrant/centos-webserver/bootstrap.sh",
@@ -788,10 +809,7 @@
 		"/Users/jean/Projects/ikro/includes/library/0.9/System/Mail.php",
 		"/Users/jean/Projects/ikro/includes/library/Zend/Locale/Data/numberingSystems.xml",
 		"/Users/jean/Projects/ikro/includes/Controller/Helper/Order/Setup.php",
-		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/imprimir.php",
-		"/Users/jean/Projects/ikro/includes/View/ack/setor.php",
-		"/Users/jean/Projects/ikro/plugins/tiny_mce/themes/advanced/source_editor.htm",
-		"/Users/jean/Projects/snippets/sublime/s.sublime-snippet"
+		"/Users/jean/Projects/ikro/includes/View/restrito/pedido/imprimir.php"
 	],
 	"find":
 	{
@@ -810,6 +828,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/tests/",
+			"game",
 			"cub",
 			"html",
 			"ssh",
@@ -935,9 +955,7 @@
 			"hasCOmparation",
 			"hasComparationChar",
 			"etVersion($version)\n            {",
-			"updateOrCreate",
-			"updateOrCrea",
-			":%s/copy/@copy/gc"
+			"updateOrCreate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1010,58 +1028,155 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/vhosts.conf",
+					"file": "/Users/jean/Projects/vagrant/backtrack/bootstrap.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6077,
+						"buffer_size": 19,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2792,
-								2792
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"rulers":
+							[
+								85
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 18
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/bootstrap.sh",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3066,
+								3108
 							]
 						],
 						"settings":
 						{
 							"rulers":
 							[
-								85,
-								18.9,
-								19.2
+								85
+							],
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_visual",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 10
+							}
+						},
+						"translation.x": -0.0,
+						"translation.y": 1987.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jean/Projects/vagrant/ubuntu-webserver/vhosts.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2046,
+								2046
+							]
+						],
+						"settings":
+						{
+							"rulers":
+							[
+								85
 							],
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
-								"_vintageous_glue_until_normal_mode": true,
+								"_vintageous_glue_until_normal_mode": false,
 								"action": null,
 								"action_count": "",
 								"capture_register": false,
-								"mode": "mode_insert",
+								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
 								"normal_insert_count": "1",
 								"partial_sequence": "",
 								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"dd",
+									"mode_internal_normal",
+									null
+								],
 								"sequence": "",
-								"xpos": 41
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1870.0,
+						"translation.y": 1179.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1638,16 +1753,28 @@
 		"selected_items":
 		[
 			[
-				"cub",
-				"~/Projects/cub/docs/jeanAir.sublime-project"
-			],
-			[
 				"mercur",
 				"~/Projects/mercur/docs/jeanAir.sublime-project"
 			],
 			[
+				"game",
+				"~/Projects/tcc-game/docs/jeanAir.sublime-project"
+			],
+			[
+				"blog",
+				"~/Projects/blog/docs/jeanAir.sublime-project"
+			],
+			[
+				"tcc",
+				"~/Projects/tcc-game/docs/jeanAir.sublime-project"
+			],
+			[
 				"ikro",
 				"~/Projects/ikro/docs/ikro.sublime-project"
+			],
+			[
+				"cub",
+				"~/Projects/cub/docs/jeanAir.sublime-project"
 			],
 			[
 				"ackske",
